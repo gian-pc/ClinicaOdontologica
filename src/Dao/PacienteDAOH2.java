@@ -89,7 +89,7 @@ public class PacienteDAOH2 implements iDao<Paciente>{
 
     @Override
     public Paciente buscarPorId(Integer id) {
-        logger.info("iniciando las operaciones de busqueda de un paciente: " + id);
+        logger.info("iniciando las operaciones de:  busqueda de un paciente: " + id);
         Connection connection = null;
         Paciente paciente = null;
         Domicilio domicilio = null;
